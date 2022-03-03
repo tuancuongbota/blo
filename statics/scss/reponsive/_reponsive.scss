@@ -1,12 +1,12 @@
 /*== Edit By DTM Reponsive ===*/
-$desktop:"max-width:1199px";
-$landscape-tablets:"(max-width:1199px)";
+$desktop:"(max-width:1199px)";
+$landscape-tablets:"(max-width:1024px)";
 $portrait-tablets:"(max-width:991px)";
 $landscape-mobile-big:"(max-width:767px)";
 $landscape-mobile:"(max-width:480px)";
 $portrait-mobile:"(max-width: 320px)";
 
-@media only screen and #{$landscape-tablets} {
+@media only screen and #{$desktop} {
     .bota_menu_mobile {
       position: absolute;
       top: 50%;
