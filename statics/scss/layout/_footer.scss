@@ -3,6 +3,9 @@
 	padding: 73px 0;
 	color: #fff;
 	position: relative;
+	@media only screen and (max-width:767px) {
+		padding: 66px 0;
+	  }
 	&_logo {
 		position: relative;
 		margin-bottom: 29px;
@@ -56,6 +59,9 @@
 		line-height: 37px;
 		margin: 0;
 		margin-bottom: 11px;
+		@media only screen and (max-width:767px) {
+			margin-top: 50px;
+		  }
 	}
 
 	form {

@@ -11455,30 +11455,50 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 @media (min-width: 1200px) { .container { max-width: calc(1600px + 10%); padding-left: 5%; padding-right: 5%; } }
 .bota_header { position: relative; }
 .bota_header.home { background: url(../imgs/bg_header.svg) no-repeat; background-size: inherit; height: 840px; }
+@media only screen and (max-width: 1199px) { .bota_header.home .bota_header_banner { padding-top: 65px; } }
+@media only screen and (max-width: 1199px) { .bota_header.home .bota_header_banner h2, .bota_header.home .bota_header_banner h1 { font-size: 28px; line-height: 43px; max-width: 375px; margin-bottom: 20px; } }
+@media only screen and (max-width: 1199px) { .bota_header.home .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; } }
+@media only screen and (max-width: 1199px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: 50%; height: 547px; } }
+@media only screen and (max-width: 991px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: 60%; height: 490px; } }
+@media only screen and (max-width: 767px) { .bota_header.home { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: 100%; } }
 .bota_header.contact { background: url(../imgs/bg_contact.svg) no-repeat; height: 284px; }
 .bota_header.faq { position: absolute; width: 100%; left: 0; right: 0; top: 0; }
 .bota_header.faq .bota_header_menu > ul > li > a { color: #fff; }
 .bota_header_logo { display: inline-block; position: relative; padding-top: 20px; }
+@media only screen and (max-width: 1199px) { .bota_header_logo { display: block; padding-top: 15px; padding-bottom: 12px; } }
+@media only screen and (max-width: 1199px) { .bota_header_logo img { height: 30px; } }
 .bota_header .bota_header_banner { position: relative; padding-top: 139px; color: #fff; }
+@media only screen and (max-width: 767px) { .bota_header .bota_header_banner { color: #263238; padding-top: 40px; } }
 .bota_header .bota_header_banner h2, .bota_header .bota_header_banner h1 { font-style: normal; font-weight: 500; font-size: 40px; line-height: 55px; margin-bottom: 25px; }
+@media only screen and (max-width: 767px) { .bota_header .bota_header_banner h2, .bota_header .bota_header_banner h1 { font-size: 29px; line-height: 43px; margin-bottom: 20px; } }
 .bota_header .bota_header_banner p { font-style: normal; font-weight: normal; font-size: 25px; line-height: 37px; margin: 0; margin-bottom: 51px; }
+@media only screen and (max-width: 767px) { .bota_header .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; } }
 .bota_header_dowload { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media only screen and (max-width: 1199px) { .bota_header_dowload { display: none; } }
 .bota_header_dowload_it { position: relative; }
 .bota_header_dowload_it a { background: #002A58; border-radius: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 12px 19px; }
+@media only screen and (max-width: 767px) { .bota_header_dowload_it a { padding: 12px 10px; } }
 .bota_header_dowload_it a:hover { background: #2c7de9; }
 .bota_header_dowload_it i { margin-right: 12px; }
 .bota_header_dowload_it a { font-style: normal; font-weight: normal; font-size: 12px; line-height: 15px; color: #fff; }
 .bota_header_dowload_it a span { font-style: normal; font-weight: 600; font-size: 14px; line-height: 17px; text-transform: uppercase; display: block; margin-top: 4px; }
 .bota_header_dowload_it + .bota_header_dowload_it { margin-left: 30px; }
+@media only screen and (max-width: 767px) { .bota_header_dowload_it + .bota_header_dowload_it { margin-left: 10px; } }
 .bota_header_menu { position: relative; }
 .bota_header_menu > ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .bota_header_menu > ul > li > a { font-style: normal; font-weight: normal; font-size: 15px; line-height: 21px; color: #001833; padding: 40px 20px; display: block; }
 .bota_header_menu > ul > li > a:hover { color: #0074f2; }
 .bota_header_menu > ul > li:last-child > a { padding-right: 0; }
+@media only screen and (max-width: 1199px) { .bota_header_left { display: none; } }
 .bota_header_right { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .bota_header_right img { max-width: 509px; }
+@media only screen and (max-width: 1199px) { .bota_header_right img { max-width: 100%; margin: auto; display: block; } }
+@media only screen and (max-width: 767px) { .bota_header_right img { max-width: 90%; margin: auto; display: block; } }
+
+@media only screen and (max-width: 1199px) { .bota_menu_mobile { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); right: 0; cursor: pointer; z-index: 999; } }
 
 .bota_footer { background: -webkit-gradient(linear, left top, left bottom, from(#007AFF), to(#005ABC)); background: linear-gradient(180deg, #007AFF 0%, #005ABC 100%); padding: 73px 0; color: #fff; position: relative; }
+@media only screen and (max-width: 767px) { .bota_footer { padding: 66px 0; } }
 .bota_footer_logo { position: relative; margin-bottom: 29px; }
 .bota_footer_download_item { height: 48px; margin-bottom: 20px; }
 .bota_footer_download_item i { cursor: pointer; }
@@ -11489,6 +11509,7 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 .bota_footer_content p i { width: 20px; margin-right: 11px; }
 .bota_footer_content a { color: #fff; }
 .bota_footer_form_title { font-style: normal; font-weight: 600; font-size: 18px; line-height: 37px; margin: 0; margin-bottom: 11px; }
+@media only screen and (max-width: 767px) { .bota_footer_form_title { margin-top: 50px; } }
 .bota_footer form { background: #0052AB; border-radius: 15px; padding: 25px; }
 .bota_footer form label { font-style: normal; font-weight: normal; font-size: 14px; line-height: 37px; margin: 0; display: block; margin-bottom: 5px; }
 .bota_footer form input { background: #FFFFFF; border-radius: 5px; width: 100%; border: none; -webkit-box-shadow: unset; box-shadow: unset; outline: none; font-size: 14px; height: 40px; padding: 0 15px; color: #000; margin-bottom: 20px; }
@@ -11515,10 +11536,12 @@ ul { padding: 0; margin: 0; }
 .bota_body_main { position: relative; max-width: 1600px; margin: auto; }
 
 .bota_block_features { background: #F0F7FE; padding: 28px 0 0; margin-bottom: 120px; }
+@media only screen and (max-width: 767px) { .bota_block_features { margin-top: -229px; padding-top: 229px; margin-bottom: 0; } }
 
 .bota_block_features_title h3 { font-style: normal; font-weight: 600; font-size: 25px; line-height: 37px; color: #002A58; margin-bottom: 25px; }
 
 .bota_block_features_it { position: relative; overflow: hidden; margin-bottom: 30px; }
+@media only screen and (max-width: 767px) { .bota_block_features_it { margin-bottom: 20px; } }
 .bota_block_features_it .bota_block_features_icon { width: 50px; position: relative; float: left; }
 .bota_block_features_it .bota_block_features_cons { position: relative; float: left; width: calc(100% - 72px); margin-left: 22px; }
 .bota_block_features_it .bota_block_features_cons h2 { font-style: normal; font-weight: 500; font-size: 18px; line-height: 29px; color: #333; margin-bottom: 5px; }
@@ -11526,10 +11549,15 @@ ul { padding: 0; margin: 0; }
 
 .bota_block_features_img { position: absolute; }
 .bota_block_features_img img { margin: auto; display: block; }
+@media only screen and (max-width: 767px) { .bota_block_features_img { position: relative; margin-bottom: 65px; } }
 
 .bota_block_table_price { padding: 74px 0 100px; position: relative; }
+@media only screen and (max-width: 767px) { .bota_block_table_price { padding: 70px 0; } }
 .bota_block_table_price .bota_block_table_price_img { position: relative; }
+@media only screen and (max-width: 767px) { .bota_block_table_price .bota_block_table_price_img { margin-bottom: 35px; } }
 .bota_block_table_price .bota_block_table_price_img img { max-width: 413.2px; margin: auto; display: block; }
+@media only screen and (max-width: 1199px) { .bota_block_table_price .bota_block_table_price_img img { max-width: 100%; margin: auto; display: block; } }
+@media only screen and (max-width: 767px) { .bota_block_table_price .bota_block_table_price_img img { max-width: 90%; margin: auto; display: block; } }
 .bota_block_table_price .bota_block_table_price_cont { position: relative; }
 .bota_block_table_price .bota_block_table_price_cont h3 { font-style: normal; font-weight: 600; font-size: 25px; line-height: 37px; color: #002A58; margin-bottom: 20px; }
 .bota_block_table_price .bota_block_table_price_cont p { font-style: normal; font-weight: normal; font-size: 16px; line-height: 29px; color: #333; }
@@ -11611,9 +11639,13 @@ ul { padding: 0; margin: 0; }
 .bota_contact_form .bota_contact_form_btn button:hover { opacity: .8; }
 
 .bota_block_info { position: relative; padding: 50px 0; overflow: hidden; }
+@media only screen and (max-width: 767px) { .bota_block_info { padding: 70px 0; } }
 .bota_block_info:before { content: ""; background: #CCE4FF; opacity: 0.5; border-radius: 25px; position: absolute; width: 150px; height: 150px; -webkit-transform: rotate(45deg); transform: rotate(45deg); right: -110px; top: 0; }
 .bota_block_info_img { position: relative; }
+@media only screen and (max-width: 767px) { .bota_block_info_img { margin-bottom: 35px; } }
 .bota_block_info_img img { margin: auto; display: block; max-width: 408px; }
+@media only screen and (max-width: 1199px) { .bota_block_info_img img { max-width: 100%; margin: auto; display: block; } }
+@media only screen and (max-width: 767px) { .bota_block_info_img img { max-width: 90%; margin: auto; display: block; } }
 .bota_block_info h3 { font-style: normal; font-weight: 600; font-size: 25px; line-height: 37px; color: #002A58; margin-bottom: 20px; }
 .bota_block_info_content { font-style: normal; font-weight: normal; font-size: 16px; line-height: 29px; color: #333333; margin-bottom: 30px; }
 .bota_block_info_btn { background: #0069DB; border-radius: 10px; color: #fff; display: inline-block; font-style: normal; font-weight: 600; font-size: 16px; line-height: 29px; text-transform: capitalize; padding: 8px 39px; cursor: pointer; }
@@ -11690,34 +11722,5 @@ ul { padding: 0; margin: 0; }
 .bota_faq_readmore { position: relative; text-align: center; }
 .bota_faq_readmore a { font-style: normal; font-weight: 600; font-size: 16px; line-height: 29px; color: #0069DB; border: 1px solid #0069DB; border-radius: 5px; display: inline-block; padding: 8px 58px; }
 .bota_faq_readmore a:hover { background: #0069DB; color: #fff; }
-
-/*== Edit By DTM Reponsive ===*/
-@media only screen and (max-width: 1199px) { .bota_menu_mobile { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); right: 0; cursor: pointer; z-index: 999; }
-  .bota_header_logo { display: block; padding-top: 15px; padding-bottom: 12px; }
-  .bota_header_logo img { height: 30px; }
-  .bota_header_left .bota_header_dowload { display: none; }
-  .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: 50%; height: 547px; }
-  .bota_header.home .bota_header_banner { padding-top: 65px; }
-  .bota_header.home .bota_header_banner h2, .bota_header.home .bota_header_banner h1 { font-size: 28px; line-height: 43px; max-width: 375px; margin-bottom: 20px; }
-  .bota_header.home .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; }
-  .bota_block_info_img img, .bota_block_table_price .bota_block_table_price_img img, .bota_header_right img { max-width: 100%; margin: auto; display: block; } }
-@media only screen and (max-width: 991px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: 60%; height: 490px; } }
-@media only screen and (max-width: 767px) { .bota_block_info_img img, .bota_block_table_price .bota_block_table_price_img img, .bota_header_right img { max-width: 90%; margin: auto; display: block; }
-  .bota_block_features_img { position: relative; }
-  .bota_header.home { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: 100%; }
-  .bota_header.home .bota_header_banner { color: #263238; padding-top: 40px; }
-  .bota_header.home .bota_header_banner h2, .bota_header.home .bota_header_banner h1 { font-size: 29px; line-height: 43px; margin-bottom: 20px; }
-  .bota_header.home .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; }
-  .bota_header_dowload_it + .bota_header_dowload_it { margin-left: 10px; }
-  .bota_header_dowload_it a { padding: 12px 10px; }
-  .bota_block_info { padding: 70px 0; }
-  .bota_block_info_img { margin-bottom: 35px; }
-  .bota_block_features_it { margin-bottom: 20px; }
-  .bota_block_features_img { margin-bottom: 65px; }
-  .bota_block_features { margin-top: -229px; padding-top: 229px; margin-bottom: 0; }
-  .bota_block_table_price { padding: 70px 0; }
-  .bota_block_table_price .bota_block_table_price_img { margin-bottom: 35px; }
-  .bota_footer { padding: 66px 0; }
-  .bota_footer .bota_footer_form_title { margin-top: 50px; } }
 
 /*# sourceMappingURL=style.css.map */

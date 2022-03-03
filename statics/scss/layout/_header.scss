@@ -4,6 +4,41 @@
     background: url(../imgs/bg_header.svg) no-repeat;
     background-size: inherit;
     height: 840px;
+    .bota_header_banner {
+      @media only screen and (max-width:1199px) {
+        padding-top: 65px;
+      }
+      h2, h1 {
+        @media only screen and (max-width:1199px) {
+          font-size: 28px;
+          line-height: 43px;
+          max-width: 375px;
+          margin-bottom: 20px;
+        }
+      }
+      p {
+        @media only screen and (max-width:1199px) {
+          font-size: 20px;
+          line-height: 37px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    @media only screen and (max-width:1199px) {
+      background: url(../imgs/bg_header_tabled.svg) no-repeat;
+      background-size: 50%;
+      height: 547px;
+    }
+    @media only screen and (max-width:991px) {
+      background: url(../imgs/bg_header_tabled.svg) no-repeat;
+      background-size: 60%;
+      height: 490px;
+    }
+    @media only screen and (max-width:767px) {
+      background: url(../imgs/bg_header_mobile.svg) no-repeat;
+      height: auto;
+      background-size: 100%;
+    }
   }
   &.contact{
     background: url(../imgs/bg_contact.svg) no-repeat;
@@ -23,12 +58,27 @@
     display: inline-block;
     position: relative;
     padding-top: 20px;
+    @media only screen and (max-width:1199px) {
+      display: block;
+      padding-top: 15px;
+      padding-bottom: 12px;
+      
+    }
+    img {
+      @media only screen and (max-width:1199px) {
+        height: 30px;
+      }
+    }
   }
 
   .bota_header_banner {
     position: relative;
     padding-top: 139px;
     color: #fff;
+    @media only screen and (max-width:767px) {
+      color: #263238;
+      padding-top: 40px;
+    }
 
     h2,h1 {
       font-style: normal;
@@ -36,6 +86,11 @@
       font-size: 40px;
       line-height: 55px;
       margin-bottom: 25px;
+      @media only screen and (max-width:767px) {
+        font-size: 29px;
+        line-height: 43px;
+        margin-bottom: 20px;
+      }
     }
 
     p {
@@ -45,12 +100,20 @@
       line-height: 37px;
       margin: 0;
       margin-bottom: 51px;
+      @media only screen and (max-width:767px) {
+        font-size: 20px;
+    line-height: 37px;
+    margin-bottom: 30px;
+      }
     }
   }
   &_dowload {
     position: relative;
     display: flex;
     align-items: center;
+    @media only screen and (max-width:1199px) {
+      display: none;
+    }
 
     &_it {
       position: relative;
@@ -60,6 +123,9 @@
         display: flex;
         align-items: center;
         padding: 12px 19px;
+        @media only screen and (max-width:767px) {
+          padding: 12px 10px;
+        }
         &:hover{
           background: #2c7de9;
         }
@@ -75,6 +141,7 @@
         font-size: 12px;
         line-height: 15px;
         color: #fff;
+        
 
         span {
           font-style: normal;
@@ -89,6 +156,9 @@
 
       + .bota_header_dowload_it {
         margin-left: 30px;
+        @media only screen and (max-width:767px) {
+          margin-left: 10px;
+        }
       }
     }
   }
@@ -120,6 +190,11 @@
       }
     }
   }
+  &_left{
+    @media only screen and (max-width:1199px) {
+      display: none;
+    }
+  }
   &_right {
     position: relative;
     display: flex;
@@ -127,7 +202,28 @@
 
     img {
       max-width: 509px;
+      @media only screen and (max-width:1199px) {
+				max-width: 100%;
+				margin: auto;
+				display: block;
+			}
+      @media only screen and (max-width:767px) {
+				max-width: 90%;
+				margin: auto;
+				display: block;
+			}
     }
   }
 
+}
+.bota_menu_mobile{
+  @media only screen and (max-width:1199px) {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    cursor: pointer;
+    z-index: 999;
+  }
 }

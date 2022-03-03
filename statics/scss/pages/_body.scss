@@ -32,6 +32,11 @@ ul {
   background: #F0F7FE;
   padding: 28px 0 0;
   margin-bottom: 120px;
+  @media only screen and (max-width:767px) {
+    margin-top: -229px;
+    padding-top: 229px;
+    margin-bottom: 0;
+  }
 }
 
 .bota_block_features_title h3 {
@@ -47,6 +52,9 @@ ul {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  @media only screen and (max-width:767px) {
+    margin-bottom: 20px;
+  }
 
   .bota_block_features_icon {
     width: 50px;
@@ -86,18 +94,37 @@ ul {
   }
 
   position: absolute;
+  @media only screen and (max-width:767px) {
+    position: relative;
+    margin-bottom: 65px;
+  }
+  
 }
 .bota_block_table_price {
   padding: 74px 0 100px;
   position: relative;
-
+  @media only screen and (max-width:767px) {
+    padding: 70px 0;
+  }
   .bota_block_table_price_img {
     position: relative;
-
+    @media only screen and (max-width:767px) {
+      margin-bottom: 35px;
+    }
     img {
       max-width: 413.2px;
       margin: auto;
       display: block;
+      @media only screen and (max-width:1199px) {
+				max-width: 100%;
+				margin: auto;
+				display: block;
+			}
+      @media only screen and (max-width:767px) {
+				max-width: 90%;
+				margin: auto;
+				display: block;
+			}
     }
   }
 
