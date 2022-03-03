@@ -11692,7 +11692,7 @@ ul { padding: 0; margin: 0; }
 .bota_faq_readmore a:hover { background: #0069DB; color: #fff; }
 
 /*== Edit By DTM Reponsive ===*/
-@media only screen and (max-width: 1024px) { .bota_menu_mobile { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); right: 0; cursor: pointer; z-index: 999; }
+@media only screen and (max-width: 1199px) { .bota_menu_mobile { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); right: 0; cursor: pointer; z-index: 999; }
   .bota_header_logo { display: block; padding-top: 15px; padding-bottom: 12px; }
   .bota_header_logo img { height: 30px; }
   .bota_header_left .bota_header_dowload { display: none; }
@@ -11719,4 +11719,5 @@ ul { padding: 0; margin: 0; }
   .bota_block_table_price .bota_block_table_price_img { margin-bottom: 35px; }
   .bota_footer { padding: 66px 0; }
   .bota_footer .bota_footer_form_title { margin-top: 50px; } }
+
 /*# sourceMappingURL=style.css.map */
