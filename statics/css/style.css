@@ -11489,7 +11489,6 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 .bota_header_menu > ul > li > a { font-style: normal; font-weight: normal; font-size: 15px; line-height: 21px; color: #001833; padding: 40px 20px; display: block; }
 .bota_header_menu > ul > li > a:hover { color: #0074f2; }
 .bota_header_menu > ul > li:last-child > a { padding-right: 0; }
-@media only screen and (max-width: 1199px) { .bota_header_left { display: none; } }
 .bota_header_right { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .bota_header_right img { max-width: 509px; }
 @media only screen and (max-width: 1199px) { .bota_header_right img { max-width: 100%; margin: auto; display: block; } }
