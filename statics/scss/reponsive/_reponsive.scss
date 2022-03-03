@@ -28,7 +28,7 @@ $portrait-mobile:"(max-width: 320px)";
 .bota_header_left .bota_header_dowload{
     display: none;
 }
-.bota_header {
+.bota_header.home {
   .bota_header_banner {
     padding-top: 65px;
 
@@ -58,7 +58,7 @@ height: 547px;
 }
 
 @media only screen and #{$portrait-tablets} {
-    .bota_header {
+    .bota_header.home {
       background: url(../imgs/bg_header_tabled.svg) no-repeat;
       background-size: 60%;
       height: 490px;
@@ -75,16 +75,12 @@ height: 547px;
     .bota_block_features_img {
       position: relative;
   }
-
-  .bota_header .bota_header_banner {
-
-  }
-  .bota_header{
+  .bota_header.home{
     background: url(../imgs/bg_header_mobile.svg) no-repeat;
     height: auto;
     background-size: 100%;
 }
-.bota_header .bota_header_banner {
+.bota_header.home .bota_header_banner {
   color: #263238;
   padding-top: 40px;
 

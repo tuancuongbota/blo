@@ -11696,18 +11696,18 @@ ul { padding: 0; margin: 0; }
   .bota_header_logo { display: block; padding-top: 15px; padding-bottom: 12px; }
   .bota_header_logo img { height: 30px; }
   .bota_header_left .bota_header_dowload { display: none; }
-  .bota_header { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: 50%; height: 547px; }
-  .bota_header .bota_header_banner { padding-top: 65px; }
-  .bota_header .bota_header_banner h2, .bota_header .bota_header_banner h1 { font-size: 28px; line-height: 43px; max-width: 375px; margin-bottom: 20px; }
-  .bota_header .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; }
+  .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: 50%; height: 547px; }
+  .bota_header.home .bota_header_banner { padding-top: 65px; }
+  .bota_header.home .bota_header_banner h2, .bota_header.home .bota_header_banner h1 { font-size: 28px; line-height: 43px; max-width: 375px; margin-bottom: 20px; }
+  .bota_header.home .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; }
   .bota_block_info_img img, .bota_block_table_price .bota_block_table_price_img img, .bota_header_right img { max-width: 100%; margin: auto; display: block; } }
-@media only screen and (max-width: 991px) { .bota_header { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: 60%; height: 490px; } }
+@media only screen and (max-width: 991px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: 60%; height: 490px; } }
 @media only screen and (max-width: 767px) { .bota_block_info_img img, .bota_block_table_price .bota_block_table_price_img img, .bota_header_right img { max-width: 90%; margin: auto; display: block; }
   .bota_block_features_img { position: relative; }
-  .bota_header { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: 100%; }
-  .bota_header .bota_header_banner { color: #263238; padding-top: 40px; }
-  .bota_header .bota_header_banner h2, .bota_header .bota_header_banner h1 { font-size: 29px; line-height: 43px; margin-bottom: 20px; }
-  .bota_header .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; }
+  .bota_header.home { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: 100%; }
+  .bota_header.home .bota_header_banner { color: #263238; padding-top: 40px; }
+  .bota_header.home .bota_header_banner h2, .bota_header.home .bota_header_banner h1 { font-size: 29px; line-height: 43px; margin-bottom: 20px; }
+  .bota_header.home .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; }
   .bota_header_dowload_it + .bota_header_dowload_it { margin-left: 10px; }
   .bota_header_dowload_it a { padding: 12px 10px; }
   .bota_block_info { padding: 70px 0; }
