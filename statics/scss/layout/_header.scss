@@ -2,7 +2,7 @@
   position: relative;
   &.home{
     background: url(../imgs/bg_header.svg) no-repeat;
-    background-size: 57%;
+    background-size: inherit;
     height: 840px;
   }
   &.contact{
