@@ -1,0 +1,290 @@
+.bota_block_info {
+	position: relative;
+	padding: 50px 0;
+	overflow: hidden;
+	&:before {
+		content: "";
+		background: #CCE4FF;
+		opacity: 0.5;
+		border-radius: 25px;
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		transform: rotate(45deg);
+		right: -110px;
+		top: 0;
+	}
+	&_img {
+		position: relative;
+
+		img {
+			margin: auto;
+			display: block;
+			max-width: 408px;
+		}
+	}
+	h3 {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 37px;
+		color: #002A58;
+		margin-bottom: 20px;
+	}
+
+	&_content {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 29px;
+		color: #333333;
+		margin-bottom: 30px;
+	}
+
+	&_btn {
+		background: #0069DB;
+		border-radius: 10px;
+		color: #fff;
+		display: inline-block;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 29px;
+		text-transform: capitalize;
+		padding: 8px 39px;
+		cursor: pointer;
+
+		&:hover {
+			opacity: .8;
+		}
+	}
+}
+.bota_info_page {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+  
+	h1 {
+	  font-style: normal;
+	  font-weight: 600;
+	  font-size: 30px;
+	  color: #002A58;
+	  margin-bottom: 15px;
+	}
+	.bota_info_tab_img img {
+		object-fit: scale-down;
+	}
+	.slider-nav-hot {
+		display: block;
+	  
+		.slick-list {
+		  transform: unset !important;
+	  
+		  .slick-track {
+			transform: unset !important;
+			width: auto !important;
+	  
+			.bota_info_tab_item {
+			  width: 100% !important;
+			  float: none;
+			}
+		  }
+		}
+	  }
+	  .bota_info_tab_item {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-bottom: 20px;
+		padding: 0;
+		color: #333333;
+		border: 1px solid transparent !important;
+		border-radius: 10px;
+		padding: 20px 15px;
+		cursor: pointer;
+		&:hover,&.slick-current {
+		border-color: #0069DB !important;
+		background: #F0F7FE;
+		}
+  
+		.bota_info_tab_icon {
+		  width: 50px;
+		  margin-right: 22px;
+		}
+	  }
+  
+	  .bota_info_tab_title {
+		font-weight: 600;
+	  }
+  
+	  .bota_info_tab_description {
+		color: #555555;
+	  }
+  }
+  
+  .bota_info_description {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	color: #555555;
+	margin-bottom: 52px;
+  }
+  
+  .bota_info_tab_img {
+	position: relative;
+	height: 740px;
+    width: 370px;
+    margin: auto;
+  
+	&:before {
+		content: "";
+		background-image: url(../imgs/bg-highlights.svg);
+		background-repeat: no-repeat;
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		right: 7px;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		left: 7px;
+	}
+	img {
+		height: 708px;
+		padding-top: 15px;
+		cursor: pointer;
+	}
+	
+  }
+  .bota_blo_sync {
+	background: #F0F7FE;
+	position: relative;
+	padding: 83px 0 75px;
+	&.sharing{
+		background: #fff;
+		padding: 0;
+	}
+  }
+  
+  .bota_blo_sync_title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	color: #002A58;
+	margin-bottom: 25px;
+  }
+  
+  .bota_blo_sync_des {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 24px;
+	color: #002A58;
+	margin-bottom: 30px;
+  
+	p {
+	  margin-bottom: 15px;
+	}
+  
+	ul {
+	  li {
+		list-style: inside;
+	  }
+  
+	  margin-left: 15px;
+	}
+  }
+  
+  .bota_blo_sync_btn {
+	position: relative;
+	display: inline-block;
+  
+	a {
+	  font-style: normal;
+	  font-weight: 600;
+	  font-size: 15px;
+	  line-height: 29px;
+	  display: inline-block;
+	  background: #0069DB;
+	  border-radius: 5px;
+	  color: #fff;
+	  padding: 7px 39px;
+	  border: 1px solid #0069DB;
+  
+	  &:hover {
+		color: #0069DB;
+		background: #fff;
+	  }
+	}
+  }
+  .bota_salient_features {
+	padding: 80px 0 30px;
+  
+	.bota_salient_features_title {
+	  font-style: normal;
+	  font-weight: 600;
+	  font-size: 30px;
+	  color: #002A58;
+	  margin-bottom: 15px;
+	  text-align: center;
+	}
+  
+	.bota_salient_features_des {
+	  text-align: center;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-size: 15px;
+	  line-height: 20px;
+	  color: #555;
+	}
+  }
+  .bota_salient_features_cont {
+	.slick-arrow {
+	  position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	  left: -94px;
+	  border: none;
+	  background: transparent;
+	  cursor: pointer;
+	  outline: none;
+	  font-size: 0;
+	  background-image: url(../imgs/prev.svg);
+	  background-repeat: no-repeat;
+	  width: 50px;
+	 height: 50px;
+	 &:hover{
+		background-image: url(../imgs/prev-hover.svg);
+	 }
+	}
+	
+	.slick-next {
+	  right: -94px;
+	  left: auto;
+	  background-image: url(../imgs/next.svg);
+	  &:hover{
+		background-image: url(../imgs/next-hover.svg);
+	 }
+	}
+	img {
+		margin: auto;
+		display: block;
+		object-fit: scale-down;
+		opacity: .5;
+	  }
+	
+	  .slick-current.slick-center img {
+		height: 547px;
+		width: 269px;
+		opacity: 1;
+	  }
+	
+	  .slick-track {
+		align-items: center;
+		display: flex;
+	  }
+	
+	  max-width: 852px;
+	  margin: auto;
+  }

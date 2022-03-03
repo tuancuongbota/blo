@@ -1,0 +1,133 @@
+.bota_header {
+  position: relative;
+  &.home{
+    background: url(../imgs/bg_header.svg) no-repeat;
+    background-size: 57%;
+    height: 840px;
+  }
+  &.contact{
+    background: url(../imgs/bg_contact.svg) no-repeat;
+    height: 284px;
+  }
+  &.faq {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    .bota_header_menu > ul > li > a{
+      color: #fff;
+    }
+}
+  &_logo {
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .bota_header_banner {
+    position: relative;
+    padding-top: 139px;
+    color: #fff;
+
+    h2,h1 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 55px;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 37px;
+      margin: 0;
+      margin-bottom: 51px;
+    }
+  }
+  &_dowload {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &_it {
+      position: relative;
+      a{
+        background: #002A58;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding: 12px 19px;
+        &:hover{
+          background: #2c7de9;
+        }
+      }
+
+      i {
+        margin-right: 12px;
+      }
+
+      a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #fff;
+
+        span {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          text-transform: uppercase;
+          display: block;
+          margin-top: 4px;
+        }
+      }
+
+      + .bota_header_dowload_it {
+        margin-left: 30px;
+      }
+    }
+  }
+  &_menu {
+    position: relative;
+
+    > ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      > li {
+        > a {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 21px;
+          color: #001833;
+          padding: 40px 20px;
+          display: block;
+
+          &:hover {
+            color: #0074f2;
+          }
+        }
+        &:last-child > a{
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  &_right {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      max-width: 509px;
+    }
+  }
+
+}

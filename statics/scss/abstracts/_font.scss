@@ -1,0 +1,228 @@
+$body-font-family:'Montserrat', sans-serif;
+$body-font-family-2:'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.icon-googleplay{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/logo_chplay.svg) no-repeat;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+
+.icon-appsotre{
+	display: inline-block;
+	width: 33.87px;
+	height: 30px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/logo_appsotre.svg) no-repeat;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-address{
+	width: 12.6px;
+	height: 18px;
+	display: inline-block;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/address.svg) no-repeat;
+		width: 12.6px;
+		height: 18px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-mail{
+	width: 20px;
+	height: 18px;
+	display: inline-block;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/mail.svg) no-repeat;
+		width: 20px;
+		height: 18px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-phone{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/phone.svg) no-repeat;
+		width: 18px;
+		height: 18px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-menu{
+	width: 26px;
+	height: 14px;
+	display: inline-block;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/menu.svg) no-repeat;
+		width: 26px;
+	height: 14px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.google-play{
+	display: inline-block;
+	width: 155px;
+	height: 48px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/googleplay.svg) no-repeat;
+		width: 155px;
+		height: 48px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.apple-store{
+	display: inline-block;
+	width: 155px;
+	height: 48px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/apple-store.svg) no-repeat;
+		width: 155px;
+		height: 48px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.windows{
+	display: inline-block;
+	width: 155px;
+	height: 48px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/windows.svg) no-repeat;
+		width: 155px;
+		height: 48px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.macos{
+	display: inline-block;
+	width: 155px;
+	height: 48px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/macos.svg) no-repeat;
+		width: 155px;
+		height: 48px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-24hhours{
+	display: inline-block;
+	width: 50px;
+	height: 45px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/24hours.svg) no-repeat;
+		width: 50px;
+		height: 45px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-user-message{
+	display: inline-block;
+	width: 50px;
+	height: 51px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/user-message.svg) no-repeat;
+		width: 50px;
+		height: 51px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-guard{
+	display: inline-block;
+	width: 42px;
+	height: 50px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/guard.svg) no-repeat;
+		width: 42px;
+		height: 50px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-cskh{
+	display: inline-block;
+	width: 47px;
+	height: 48px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/cskh.svg) no-repeat;
+		width: 47px;
+		height: 48px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-decentralization{
+	display: inline-block;
+	width: 47px;
+	height: 48px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/decentralization.svg) no-repeat;
+		width: 47px;
+		height: 48px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-connection{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/connection.svg) no-repeat;
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		background-size: 100%;
+	}
+}

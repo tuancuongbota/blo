@@ -1,0 +1,144 @@
+.bota_footer{
+	background: linear-gradient(180deg, #007AFF 0%, #005ABC 100%);
+	padding: 73px 0;
+	color: #fff;
+	position: relative;
+	&_logo {
+		position: relative;
+		margin-bottom: 29px;
+	}
+	&_download_item {
+		height: 48px;
+		margin-bottom: 20px;
+	  
+		i {
+		  cursor: pointer;
+		}
+	  }
+	h4 {
+		font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 25px;
+	}
+
+	&_content {
+		position: relative;
+
+		h3 {
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 37px;
+			margin-bottom: 15px;
+		}
+
+		p {
+			margin-bottom: 15px;
+			display: flex;
+			align-items: center;
+
+			i {
+				width: 20px;
+				margin-right: 11px;
+			}
+		}
+		a{
+			color: #fff;
+		}
+	}
+	&_form_title {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 37px;
+		margin: 0;
+		margin-bottom: 11px;
+	}
+
+	form {
+		background: #0052AB;
+		border-radius: 15px;
+		padding: 25px;
+
+		label {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 37px;
+			margin: 0;
+			display: block;
+			margin-bottom: 5px;
+		}
+
+		input {
+			background: #FFFFFF;
+			border-radius: 5px;
+			width: 100%;
+			border: none;
+			box-shadow: unset;
+			outline: none;
+			font-size: 14px;
+			height: 40px;
+			padding: 0 15px;
+			color: #000;
+			margin-bottom: 20px;
+		}
+
+		button {
+			background: #FFC328;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+			color: #fff;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 28px;
+			text-transform: capitalize;
+			padding: 6px 33px;
+			margin: auto;
+			display: block;
+
+			&:hover {
+				opacity: .9;
+			}
+		}
+	}
+	&_bottom_list {
+		position: relative;
+	  
+		ul li {
+		  a {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 15px;
+			line-height: 20px;
+			display: block;
+			color: #fff;
+			&:hover{
+				color: #FFC727;
+			}
+		  }
+	  
+		  margin-bottom: 25px;
+		}
+	  }
+}
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background: rgba(0, 122, 255, 0.2);
+  padding: 13px 0;
+
+  a {
+    color: #fff;
+    font-weight: bold;
+	text-transform: uppercase;
+  }
+}

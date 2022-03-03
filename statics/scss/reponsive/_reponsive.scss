@@ -1,0 +1,152 @@
+/*== Edit By DTM Reponsive ===*/
+$desktop:"max-width:1199px";
+$landscape-tablets:"(max-width:1024px)";
+$portrait-tablets:"(max-width:991px)";
+$landscape-mobile-big:"(max-width:767px)";
+$landscape-mobile:"(max-width:480px)";
+$portrait-mobile:"(max-width: 320px)";
+
+@media only screen and #{$landscape-tablets} {
+    .bota_menu_mobile {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 0;
+      cursor: pointer;
+      z-index: 999;
+  }
+
+  .bota_header_logo {
+      display: block;
+      padding-top: 15px;
+      padding-bottom: 12px;
+      img {
+        height: 30px;
+    }
+}
+.bota_header_left .bota_header_dowload{
+    display: none;
+}
+.bota_header {
+  .bota_header_banner {
+    padding-top: 65px;
+
+    h2, h1 {
+      font-size: 28px;
+      line-height: 43px;
+      max-width: 375px;
+      margin-bottom: 20px;
+  }
+
+  p {
+      font-size: 20px;
+      line-height: 37px;
+      margin-bottom: 30px;
+  }
+}
+
+background: url(../imgs/bg_header_tabled.svg) no-repeat;
+background-size: 50%;
+height: 547px;
+}
+.bota_block_info_img img, .bota_block_table_price .bota_block_table_price_img img,.bota_header_right img  {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+}
+
+@media only screen and #{$portrait-tablets} {
+    .bota_header {
+      background: url(../imgs/bg_header_tabled.svg) no-repeat;
+      background-size: 60%;
+      height: 490px;
+  }
+}
+
+@media only screen and #{$landscape-mobile-big} {
+    .bota_block_info_img img, .bota_block_table_price .bota_block_table_price_img img,.bota_header_right img {
+        max-width: 90%;
+        margin: auto;
+        display: block;
+    }
+
+    .bota_block_features_img {
+      position: relative;
+  }
+
+  .bota_header .bota_header_banner {
+
+  }
+  .bota_header{
+    background: url(../imgs/bg_header_mobile.svg) no-repeat;
+    height: auto;
+    background-size: 100%;
+}
+.bota_header .bota_header_banner {
+  color: #263238;
+  padding-top: 40px;
+
+  h2, h1 {
+    font-size: 29px;
+    line-height: 43px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 37px;
+    margin-bottom: 30px;
+}
+}
+
+.bota_header_dowload_it {
+  + .bota_header_dowload_it {
+    margin-left: 10px;
+}
+
+a {
+    padding: 12px 10px;
+}
+}
+
+.bota_block_info {
+  padding: 70px 0;
+}
+
+.bota_block_info_img {
+  margin-bottom: 35px;
+}
+
+.bota_block_features_it {
+  margin-bottom: 20px;
+}
+
+.bota_block_features_img {
+  margin-bottom: 65px;
+}
+.bota_block_features {
+    margin-top: -229px;
+    padding-top: 229px;
+    margin-bottom: 0;
+}
+.bota_block_table_price {
+  padding: 70px 0;
+
+  .bota_block_table_price_img {
+    margin-bottom: 35px;
+}
+}
+.bota_footer {
+    padding: 66px 0;
+}
+.bota_footer .bota_footer_form_title {
+    margin-top: 50px;
+}
+
+}
+
+@media only screen and #{$landscape-mobile} {}
+
+@media only screen and #{$portrait-mobile} {}
