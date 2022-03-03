@@ -31,19 +31,23 @@ a{-webkit-transition:all ease 0.2s;-o-transition:all ease 0.2s;transition:all ea
 a,img,label,li,span{text-decoration:none;-webkit-tap-highlight-color:rgba(255, 255, 255, 0)}
 @media (min-width: 768px){
 	.container{
-		max-width: 1170px;
+		max-width: calc(1600px + 10%);
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 }
 @media (min-width: 992px){
 	.container{
-		max-width: 1170px;
+		max-width: calc(1600px + 10%);
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 }
 @media (min-width: 1200px){
 	.container{
-		max-width: 1170px;
-		padding-left: 0;
-		padding-right: 0;
+		max-width: calc(1600px + 10%);
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 }
 
