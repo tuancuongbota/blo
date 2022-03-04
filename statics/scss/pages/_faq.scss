@@ -52,7 +52,7 @@
   
   .bota_faq_page {
     position: relative;
-    padding-top: 80px;
+    padding-top: 114px;
     padding-bottom: 80px;
     @media (min-width: 1200px){
         .container {
@@ -125,4 +125,8 @@
     }
   }
   
- 
+  .bota_faq_icon {
+    position: absolute;
+    bottom: -174px;
+    right: 0;
+}

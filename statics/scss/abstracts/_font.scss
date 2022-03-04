@@ -226,3 +226,17 @@ $body-font-family-2:'Montserrat', sans-serif;
 		background-size: 100%;
 	}
 }
+.icon-faq{
+	display: inline-block;
+	width: 679px;
+	height: 401px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/bg-faq.svg) no-repeat;
+		width: 679px;
+		height: 401px;
+		position: absolute;
+		background-size: 100%;
+	}
+}

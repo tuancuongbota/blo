@@ -11426,6 +11426,9 @@ readers do not read off random characters that represent icons */
 .icon-connection { display: inline-block; width: 50px; height: 50px; position: relative; }
 .icon-connection:before { content: ""; background: url(../imgs/connection.svg) no-repeat; width: 50px; height: 50px; position: absolute; background-size: 100%; }
 
+.icon-faq { display: inline-block; width: 679px; height: 401px; position: relative; }
+.icon-faq:before { content: ""; background: url(../imgs/bg-faq.svg) no-repeat; width: 679px; height: 401px; position: absolute; background-size: 100%; }
+
 /*== Color ==*/
 /*== End Color ==*/
 .margin-bottom-40 { margin-bottom: 40px !important; }
@@ -11717,7 +11720,7 @@ ul { padding: 0; margin: 0; }
 .bota_faq_main { text-align: center; margin-bottom: 40px; }
 .bota_faq_main h1 { font-style: normal; font-weight: 600; font-size: 30px; color: #002A58; }
 
-.bota_faq_page { position: relative; padding-top: 80px; padding-bottom: 80px; }
+.bota_faq_page { position: relative; padding-top: 114px; padding-bottom: 80px; }
 @media (min-width: 1200px) { .bota_faq_page .container { max-width: 882px; } }
 
 .bota_faq_item { position: relative; border-bottom: 1px solid #E0E0E0; padding-bottom: 30px; margin-bottom: 30px; }
@@ -11731,5 +11734,7 @@ ul { padding: 0; margin: 0; }
 .bota_faq_readmore { position: relative; text-align: center; }
 .bota_faq_readmore a { font-style: normal; font-weight: 600; font-size: 16px; line-height: 29px; color: #0069DB; border: 1px solid #0069DB; border-radius: 5px; display: inline-block; padding: 8px 58px; }
 .bota_faq_readmore a:hover { background: #0069DB; color: #fff; }
+
+.bota_faq_icon { position: absolute; bottom: -174px; right: 0; }
 
 /*# sourceMappingURL=style.css.map */
