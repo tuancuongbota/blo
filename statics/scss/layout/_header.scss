@@ -53,7 +53,7 @@
     @media only screen and (max-width:767px) {
       background: url(../imgs/bg_header_mobile.svg) no-repeat;
       height: auto;
-      background-size: 100%;
+      background-size: contain;
     }
   }
   &.contact{
