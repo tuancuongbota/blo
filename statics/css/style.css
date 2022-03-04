@@ -11634,7 +11634,7 @@ ul { padding: 0; margin: 0; }
 .bota_funtion_hot .bota_funtion_text2 { position: relative; margin: 120px 66px 95px; }
 .bota_funtion_hot .bota_funtion_img { position: absolute; width: 550px; margin: auto; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 
-.bota_contact_page { position: relative; background: url(../imgs/bg_contact_center.svg) no-repeat; padding: 154px 0; background-position: bottom; margin-top: -101px; z-index: -1; }
+.bota_contact_page { position: relative; background: url(../imgs/bg_contact_center.svg) no-repeat; padding: 154px 0; background-position: bottom; margin-top: -101px; }
 .bota_contact_page .container { position: relative; }
 
 .bota_icon_contact { background: url(../imgs/bg_contact_mail.svg) no-repeat; right: 0; top: -50px; width: 188px; height: 140px; position: absolute; }
