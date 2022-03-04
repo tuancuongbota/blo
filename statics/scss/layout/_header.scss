@@ -85,6 +85,20 @@
     .bota_header_menu > ul > li > a{
       color: #fff;
     }
+    .container{
+      position: relative;
+      &::before{
+        content: "";
+        background-image: url(../imgs/b.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -142px;
+        width: 518.55px;
+        height: 489.4px;
+        top: 0;
+        mix-blend-mode: screen;
+      }
+    }
 }
   &_logo {
     display: inline-block;

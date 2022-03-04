@@ -11472,6 +11472,8 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 @media only screen and (max-width: 1199px) { .bota_header.contact .container:before { display: none; } }
 .bota_header.faq { position: absolute; width: 100%; left: 0; right: 0; top: 0; }
 .bota_header.faq .bota_header_menu > ul > li > a { color: #fff; }
+.bota_header.faq .container { position: relative; }
+.bota_header.faq .container::before { content: ""; background-image: url(../imgs/b.svg); background-repeat: no-repeat; position: absolute; left: -142px; width: 518.55px; height: 489.4px; top: 0; mix-blend-mode: screen; }
 .bota_header_logo { display: inline-block; position: relative; padding-top: 20px; }
 @media only screen and (max-width: 1199px) { .bota_header_logo { display: block; padding-top: 15px; padding-bottom: 12px; } }
 @media only screen and (max-width: 1199px) { .bota_header_logo img { height: 30px; } }
@@ -11704,7 +11706,7 @@ ul { padding: 0; margin: 0; }
 .bota_salient_features_cont .slick-current.slick-center img { height: 547px; width: 269px; opacity: 1; }
 .bota_salient_features_cont .slick-track { -webkit-box-align: center; -ms-flex-align: center; align-items: center; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.bota_faq_search_bg { background: url(../imgs/bg_faq.svg) no-repeat; height: 542px; padding: 191px 0; background-position: top; background-size: contain; }
+.bota_faq_search_bg { padding: 191px 0 115px; background: linear-gradient(279.49deg, #0079FD 0%, #0065D4 100%); }
 
 .bota_faq_search_bg h2 { font-style: normal; font-weight: 600; font-size: 36px; color: #fff; margin-bottom: 25px; }
 
