@@ -11384,6 +11384,12 @@ readers do not read off random characters that represent icons */
 .icon-appsotre { display: inline-block; width: 33.87px; height: 30px; position: relative; }
 .icon-appsotre:before { content: ""; background: url(../imgs/logo_appsotre.svg) no-repeat; width: 30px; height: 30px; position: absolute; background-size: 100%; }
 
+.icon-download-macos { display: inline-block; width: 28px; height: 34px; position: relative; }
+.icon-download-macos:before { content: ""; background: url(../imgs/icon-download-macos.svg) no-repeat; width: 28px; height: 34px; position: absolute; background-size: 100%; }
+
+.icon-download-windows { display: inline-block; width: 28px; height: 34px; position: relative; }
+.icon-download-windows:before { content: ""; background: url(../imgs/icon-download-macos.svg) no-repeat; width: 28px; height: 34px; position: absolute; background-size: 100%; }
+
 .icon-address { width: 12.6px; height: 18px; display: inline-block; position: relative; }
 .icon-address:before { content: ""; background: url(../imgs/address.svg) no-repeat; width: 12.6px; height: 18px; position: absolute; background-size: 100%; }
 
@@ -11486,17 +11492,15 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 @media only screen and (max-width: 767px) { .bota_header .bota_header_banner h2, .bota_header .bota_header_banner h1 { font-size: 29px; line-height: 43px; margin-bottom: 20px; } }
 .bota_header .bota_header_banner p { font-style: normal; font-weight: normal; font-size: 25px; line-height: 37px; margin: 0; margin-bottom: 51px; }
 @media only screen and (max-width: 767px) { .bota_header .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; } }
-.bota_header_dowload { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.bota_header_dowload { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; max-width: 425px; margin-left: -12.5px; margin-right: -12.5px; }
 @media only screen and (max-width: 1199px) { .bota_header_dowload { display: none; } }
-.bota_header_dowload_it { position: relative; }
+.bota_header_dowload_it { position: relative; padding-left: 12.5px; padding-right: 12.5px; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; margin-bottom: 25px; }
 .bota_header_dowload_it a { background: #002A58; border-radius: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 12px 19px; }
 @media only screen and (max-width: 767px) { .bota_header_dowload_it a { padding: 12px 10px; } }
 .bota_header_dowload_it a:hover { background: #2c7de9; }
 .bota_header_dowload_it i { margin-right: 12px; }
 .bota_header_dowload_it a { font-style: normal; font-weight: normal; font-size: 12px; line-height: 15px; color: #fff; }
 .bota_header_dowload_it a span { font-style: normal; font-weight: 600; font-size: 14px; line-height: 17px; text-transform: uppercase; display: block; margin-top: 4px; }
-.bota_header_dowload_it + .bota_header_dowload_it { margin-left: 30px; }
-@media only screen and (max-width: 767px) { .bota_header_dowload_it + .bota_header_dowload_it { margin-left: 10px; } }
 .bota_header_menu { position: relative; }
 .bota_header_menu > ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .bota_header_menu > ul > li > a { font-style: normal; font-weight: normal; font-size: 15px; line-height: 21px; color: #001833; padding: 40px 20px; display: block; }

@@ -30,6 +30,34 @@ $body-font-family-2:'Montserrat', sans-serif;
 		background-size: 100%;
 	}
 }
+.icon-download-macos{
+	display: inline-block;
+	width: 28px;
+	height: 34px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/icon-download-macos.svg) no-repeat;
+		width: 28px;
+		height: 34px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
+.icon-download-windows{
+	display: inline-block;
+	width: 28px;
+	height: 34px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/icon-download-macos.svg) no-repeat;
+		width: 28px;
+		height: 34px;
+		position: absolute;
+		background-size: 100%;
+	}
+}
 .icon-address{
 	width: 12.6px;
 	height: 18px;
