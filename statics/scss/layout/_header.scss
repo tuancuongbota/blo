@@ -4,6 +4,9 @@
     .container{
       position: relative;
       height: 799px;
+      @media only screen and (max-width:1199px) {
+       height: auto;
+      }
       &:before {
         content: "";
         background: url(../imgs/bg_header.svg) no-repeat top left;
@@ -12,6 +15,9 @@
         position: absolute;
         bottom: 0;
         left: -55px;
+        @media only screen and (max-width:1199px) {
+          display: none;
+        }
       }
     }
     .bota_header_banner {
