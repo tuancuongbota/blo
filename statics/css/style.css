@@ -11473,7 +11473,7 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 @media only screen and (max-width: 1199px) { .bota_header_logo { display: block; padding-top: 15px; padding-bottom: 12px; } }
 @media only screen and (max-width: 1199px) { .bota_header_logo img { height: 30px; } }
 .bota_header .bota_header_banner { position: relative; padding-top: 139px; color: #fff; }
-@media only screen and (max-width: 767px) { .bota_header .bota_header_banner { color: #263238; padding-top: 40px; } }
+@media only screen and (max-width: 480px) { .bota_header .bota_header_banner { color: #263238; padding-top: 40px; } }
 .bota_header .bota_header_banner h2, .bota_header .bota_header_banner h1 { font-style: normal; font-weight: 500; font-size: 40px; line-height: 55px; margin-bottom: 25px; }
 @media only screen and (max-width: 767px) { .bota_header .bota_header_banner h2, .bota_header .bota_header_banner h1 { font-size: 29px; line-height: 43px; margin-bottom: 20px; } }
 .bota_header .bota_header_banner p { font-style: normal; font-weight: normal; font-size: 25px; line-height: 37px; margin: 0; margin-bottom: 51px; }
