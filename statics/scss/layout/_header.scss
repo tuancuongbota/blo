@@ -42,7 +42,7 @@
     }
     @media only screen and (max-width:1199px) {
       background: url(../imgs/bg_header_tabled.svg) no-repeat;
-      background-size: 50%;
+      background-size: contain;
       height: 547px;
     }
     @media only screen and (max-width:991px) {
