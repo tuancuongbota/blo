@@ -11458,7 +11458,7 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 .bota_header { position: relative; }
 .bota_header.home .container { position: relative; height: 799px; }
 @media only screen and (max-width: 1199px) { .bota_header.home .container { height: auto; } }
-.bota_header.home .container:before { content: ""; background: url(../imgs/bg_header.svg) no-repeat top left; width: 960px; height: 799px; position: absolute; bottom: 0; left: -55px; }
+.bota_header.home .container:before { content: ""; background: url(../imgs/bg_header.svg) no-repeat top left; width: 960px; height: 799px; position: absolute; bottom: 0; left: 0; }
 @media only screen and (max-width: 1199px) { .bota_header.home .container:before { display: none; } }
 @media only screen and (max-width: 1199px) { .bota_header.home .bota_header_banner { padding-top: 65px; } }
 @media only screen and (max-width: 1199px) { .bota_header.home .bota_header_banner h2, .bota_header.home .bota_header_banner h1 { font-size: 28px; line-height: 43px; max-width: 375px; margin-bottom: 20px; } }
