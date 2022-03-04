@@ -7,18 +7,18 @@
       @media only screen and (max-width:1199px) {
        height: auto;
       }
-      &:before {
-        content: "";
-        background: url(../imgs/bg_header.svg) no-repeat top left;
-        width: 960px;
-        height: 799px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        @media only screen and (max-width:1199px) {
-          display: none;
+        &:before {
+          content: "";
+          background: url(../imgs/bg_header.svg) no-repeat top left;
+          width: 960px;
+          height: 799px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          @media only screen and (max-width:1199px) {
+            display: none;
+          }
         }
-      }
     }
     .bota_header_banner {
       @media only screen and (max-width:1199px) {
@@ -57,8 +57,23 @@
     }
   }
   &.contact{
-    background: url(../imgs/bg_contact.svg) no-repeat;
-    height: 284px;
+    position: relative;
+    .container{
+      height: 284px;
+    }
+    &:before {
+      content: "";
+      background: url(../imgs/bg_contact.svg) no-repeat top left;
+      width: 960px;
+      height: 284px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      @media only screen and (max-width:1199px) {
+        display: none;
+      }
+    }
+
   }
   &.faq {
     position: absolute;

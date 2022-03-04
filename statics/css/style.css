@@ -11466,7 +11466,10 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 @media only screen and (max-width: 1199px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: contain; height: 547px; } }
 @media only screen and (max-width: 991px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: contain; height: 490px; } }
 @media only screen and (max-width: 480px) { .bota_header.home { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: contain; } }
-.bota_header.contact { background: url(../imgs/bg_contact.svg) no-repeat; height: 284px; }
+.bota_header.contact { position: relative; }
+.bota_header.contact .container { height: 284px; }
+.bota_header.contact:before { content: ""; background: url(../imgs/bg_contact.svg) no-repeat top left; width: 960px; height: 284px; position: absolute; bottom: 0; left: 0; }
+@media only screen and (max-width: 1199px) { .bota_header.contact:before { display: none; } }
 .bota_header.faq { position: absolute; width: 100%; left: 0; right: 0; top: 0; }
 .bota_header.faq .bota_header_menu > ul > li > a { color: #fff; }
 .bota_header_logo { display: inline-block; position: relative; padding-top: 20px; }
@@ -11701,7 +11704,7 @@ ul { padding: 0; margin: 0; }
 .bota_salient_features_cont .slick-current.slick-center img { height: 547px; width: 269px; opacity: 1; }
 .bota_salient_features_cont .slick-track { -webkit-box-align: center; -ms-flex-align: center; align-items: center; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.bota_faq_search_bg { background: url(../imgs/bg_faq.svg) no-repeat; height: 542px; padding: 191px 0; }
+.bota_faq_search_bg { background: url(../imgs/bg_faq.svg) no-repeat; height: 542px; padding: 191px 0; background-position: top; background-size: contain; }
 
 .bota_faq_search_bg h2 { font-style: normal; font-weight: 600; font-size: 36px; color: #fff; margin-bottom: 25px; }
 
