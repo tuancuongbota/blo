@@ -4,6 +4,19 @@
     background: url(../imgs/bg_header.svg) no-repeat;
     background-size: inherit;
     height: 840px;
+    .container{
+      position: relative;
+      height: 799px;
+      &:before {
+        content: "";
+        background: url(../imgs/bg_header.svg) no-repeat top left;
+        width: 960px;
+        height: 799px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
     .bota_header_banner {
       @media only screen and (max-width:1199px) {
         padding-top: 65px;
