@@ -11467,9 +11467,9 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 @media only screen and (max-width: 991px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: contain; height: 490px; } }
 @media only screen and (max-width: 480px) { .bota_header.home { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: contain; } }
 .bota_header.contact { position: relative; }
-.bota_header.contact .container { height: 284px; }
-.bota_header.contact:before { content: ""; background: url(../imgs/bg_contact.svg) no-repeat top left; width: 960px; height: 284px; position: absolute; bottom: 0; left: 0; }
-@media only screen and (max-width: 1199px) { .bota_header.contact:before { display: none; } }
+.bota_header.contact .container { position: relative; }
+.bota_header.contact .container:before { content: ""; background: url(../imgs/bg_contact.svg) no-repeat top left; width: 610px; height: 284px; position: absolute; left: 0; top: 0; }
+@media only screen and (max-width: 1199px) { .bota_header.contact .container:before { display: none; } }
 .bota_header.faq { position: absolute; width: 100%; left: 0; right: 0; top: 0; }
 .bota_header.faq .bota_header_menu > ul > li > a { color: #fff; }
 .bota_header_logo { display: inline-block; position: relative; padding-top: 20px; }
