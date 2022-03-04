@@ -11450,6 +11450,7 @@ a { -webkit-transition: all ease 0.2s; transition: all ease 0.2s; }
 
 a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
 
+@media (min-width: 576px) { .container { max-width: calc(1600px + 10%); padding-left: 5%; padding-right: 5%; } }
 @media (min-width: 768px) { .container { max-width: calc(1600px + 10%); padding-left: 5%; padding-right: 5%; } }
 @media (min-width: 992px) { .container { max-width: calc(1600px + 10%); padding-left: 5%; padding-right: 5%; } }
 @media (min-width: 1200px) { .container { max-width: calc(1600px + 10%); padding-left: 5%; padding-right: 5%; } }
