@@ -11532,7 +11532,7 @@ ul li { list-style: none; }
 
 ul { padding: 0; margin: 0; }
 
-.bota_body_main { position: relative; max-width: 1600px; margin: auto; }
+.bota_body_main { position: relative; margin: auto; }
 
 .bota_block_features { background: #F0F7FE; padding: 28px 0 0; margin-bottom: 120px; }
 @media only screen and (max-width: 767px) { .bota_block_features { margin-top: -229px; padding-top: 229px; margin-bottom: 0; } }
