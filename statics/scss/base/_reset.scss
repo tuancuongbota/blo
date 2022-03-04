@@ -51,4 +51,10 @@ a,img,label,li,span{text-decoration:none;-webkit-tap-highlight-color:rgba(255, 2
 	}
 }
 
-
+@media (min-width: 1600px){
+    .container {
+    max-width: 1600px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
