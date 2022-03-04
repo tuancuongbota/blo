@@ -11465,7 +11465,7 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 @media only screen and (max-width: 1199px) { .bota_header.home .bota_header_banner p { font-size: 20px; line-height: 37px; margin-bottom: 30px; } }
 @media only screen and (max-width: 1199px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: contain; height: 547px; } }
 @media only screen and (max-width: 991px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: contain; height: 490px; } }
-@media only screen and (max-width: 767px) { .bota_header.home { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: contain; } }
+@media only screen and (max-width: 480px) { .bota_header.home { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: contain; } }
 .bota_header.contact { background: url(../imgs/bg_contact.svg) no-repeat; height: 284px; }
 .bota_header.faq { position: absolute; width: 100%; left: 0; right: 0; top: 0; }
 .bota_header.faq .bota_header_menu > ul > li > a { color: #fff; }
