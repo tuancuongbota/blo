@@ -32,6 +32,21 @@ $(document).ready(function() {
         centerMode: false,
         focusOnSelect: true
     });
+    $('.slick-blo-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slick-blo-nav'
+  });
+  $('.slick-blo-nav').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      asNavFor: '.slick-blo-for',
+      dots: false,
+      centerMode: false,
+      focusOnSelect: true
+  });
     $('.slick-features').slick({
         centerMode: true,
         centerPadding: '10px',
