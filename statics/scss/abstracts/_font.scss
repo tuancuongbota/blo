@@ -268,3 +268,17 @@ $body-font-family-2:'Montserrat', sans-serif;
 		background-size: 100%;
 	}
 }
+.icon-blo-features{
+	display: inline-block;
+	width: 564px;
+	height: 836px;
+	position: relative;
+	&:before{
+		content:"";
+		background: url(../imgs/blo-features.svg) no-repeat;
+		width: 564px;
+		height: 836px;
+		position: absolute;
+		background-size: 100%;
+	}
+}

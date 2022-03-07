@@ -11435,6 +11435,9 @@ readers do not read off random characters that represent icons */
 .icon-faq { display: inline-block; width: 679px; height: 401px; position: relative; }
 .icon-faq:before { content: ""; background: url(../imgs/bg-faq.svg) no-repeat; width: 679px; height: 401px; position: absolute; background-size: 100%; }
 
+.icon-blo-features { display: inline-block; width: 564px; height: 836px; position: relative; }
+.icon-blo-features:before { content: ""; background: url(../imgs/blo-features.svg) no-repeat; width: 564px; height: 836px; position: absolute; background-size: 100%; }
+
 /*== Color ==*/
 /*== End Color ==*/
 .margin-bottom-40 { margin-bottom: 40px !important; }
@@ -11551,17 +11554,21 @@ ul { padding: 0; margin: 0; }
 
 .bota_body_main { position: relative; margin: auto; }
 
-.bota_block_features { background: #F0F7FE; padding: 28px 0 0; margin-bottom: 120px; }
+.bota_block_features { padding: 54px 0 115px; margin-bottom: 120px; background: linear-gradient(279.49deg, #0079FD 0%, #0065D4 100%); border-radius: 150px 150px 0px 0px; position: relative; }
 @media only screen and (max-width: 767px) { .bota_block_features { margin-top: -229px; padding-top: 229px; margin-bottom: 0; } }
+.bota_block_features .container { max-width: 1111px; }
+.bota_block_features .icon-blo-features { mix-blend-mode: screen; opacity: 0.3; position: absolute; left: 0; top: 0; }
 
-.bota_block_features_title h3 { font-style: normal; font-weight: 600; font-size: 25px; line-height: 37px; color: #002A58; margin-bottom: 25px; }
+.bota_block_features_title h3 { font-style: normal; font-weight: 600; font-size: 30px; color: #fff; margin-bottom: 59px; text-align: center; }
 
-.bota_block_features_it { position: relative; overflow: hidden; margin-bottom: 30px; }
+.bota_block_features_it { position: relative; overflow: hidden; margin-bottom: 30px; background: #FFFFFF; border: 1px solid #0069DB; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; padding: 15px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; max-width: 480px; margin-left: auto; margin-right: auto; }
 @media only screen and (max-width: 767px) { .bota_block_features_it { margin-bottom: 20px; } }
 .bota_block_features_it .bota_block_features_icon { width: 50px; position: relative; float: left; }
-.bota_block_features_it .bota_block_features_cons { position: relative; float: left; width: calc(100% - 72px); margin-left: 22px; }
-.bota_block_features_it .bota_block_features_cons h2 { font-style: normal; font-weight: 500; font-size: 18px; line-height: 29px; color: #333; margin-bottom: 5px; }
-.bota_block_features_it .bota_block_features_cons p { font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #555; }
+.bota_block_features_it .bota_block_features_cons { position: relative; float: left; width: calc(100% - 72px - 95px); margin-left: 22px; }
+.bota_block_features_it .bota_block_features_cons h2 { font-style: normal; font-weight: 500; font-size: 16px; line-height: 24px; color: #002A58; margin-bottom: 10px; }
+.bota_block_features_it .bota_block_features_cons p { font-style: normal; font-weight: normal; font-size: 15px; line-height: 24px; color: #002A58; margin: 0; }
+
+.bota_block_features_count { width: 51px; height: 51px; border-radius: 100%; background: #006FE9; color: #fff; text-align: center; line-height: 51px; font-style: normal; font-weight: 600; font-size: 20px; margin-left: 40px; }
 
 .bota_block_features_img { position: absolute; }
 .bota_block_features_img img { margin: auto; display: block; }
