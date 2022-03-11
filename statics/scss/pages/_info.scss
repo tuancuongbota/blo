@@ -304,3 +304,28 @@
 	  max-width: 852px;
 	  margin: auto;
   }
+  .bota_info_page_bg {
+    background: linear-gradient(279.49deg, #0079FD 0%, #0065D4 100%);
+    color: #fff;
+    margin-top: -101px;
+    padding: 226px 0 157px;
+	 .icon-blo-features {
+		mix-blend-mode: screen;
+		opacity: 0.3;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 557px;
+		&::before{
+			height: 557px;
+			background-size: 67%;
+		}
+	}
+
+	.bota_info_page_bg_des {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 29px;
+	}
+}
