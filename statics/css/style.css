@@ -11478,15 +11478,17 @@ a, img, label, li, span { text-decoration: none; -webkit-tap-highlight-color: rg
 @media only screen and (max-width: 1199px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: contain; height: 547px; } }
 @media only screen and (max-width: 991px) { .bota_header.home { background: url(../imgs/bg_header_tabled.svg) no-repeat; background-size: contain; height: 490px; } }
 @media only screen and (max-width: 480px) { .bota_header.home { background: url(../imgs/bg_header_mobile.svg) no-repeat; height: auto; background-size: contain; } }
-.bota_header.contact { position: relative; }
+.bota_header.contact { position: relative; z-index: 1; }
 .bota_header.contact .container { position: relative; }
 .bota_header.contact .container:before { content: ""; background: url(../imgs/bg_contact.svg) no-repeat top left; width: 610px; height: 284px; position: absolute; left: 0; top: 0; }
 @media only screen and (max-width: 1199px) { .bota_header.contact .container:before { display: none; } }
+.bota_header.info .bota_header_menu > ul > li > a { color: #fff; }
 .bota_header.faq { position: absolute; width: 100%; left: 0; right: 0; top: 0; }
 .bota_header.faq .bota_header_menu > ul > li > a { color: #fff; }
 .bota_header.faq .container { position: relative; }
 .bota_header.faq .container::before { content: ""; background-image: url(../imgs/b.svg); background-repeat: no-repeat; position: absolute; left: -142px; width: 518.55px; height: 489.4px; top: 0; mix-blend-mode: screen; }
 .bota_header_logo { display: inline-block; position: relative; padding-top: 20px; }
+.bota_header_logo img { max-width: 82px; }
 @media only screen and (max-width: 1199px) { .bota_header_logo { display: block; padding-top: 15px; padding-bottom: 12px; } }
 @media only screen and (max-width: 1199px) { .bota_header_logo img { height: 30px; } }
 .bota_header .bota_header_banner { position: relative; padding-top: 139px; color: #fff; }
